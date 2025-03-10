@@ -7,23 +7,17 @@ Immagina che vuoi creare più **persone** con il **nome** e l'**età**. Anziché
 1. **Funzione costruttore**: È una **funzione** che dice come creare un oggetto (per esempio, una persona).
     
     ```jsx
-    javascript
-    Copia
     function Persona(nome, eta) {
         this.nome = nome;  // La persona avrà un "nome"
         this.eta = eta;    // La persona avrà un "eta"
     }
-    
-    ```
+        ```
     
 2. **Creare oggetti**: Per creare una persona, usi la parola **new**.
     
     ```jsx
-    javascript
-    Copia
     let persona1 = new Persona("Giulia", 25);  // Crea una persona di nome Giulia e età 25
     let persona2 = new Persona("Luca", 30);    // Crea una persona di nome Luca e età 30
-    
     ```
     
 
@@ -34,8 +28,7 @@ Ora, **persona1** e **persona2** sono due oggetti separati con **nome** e **età
 Puoi anche aggiungere **azioni** agli oggetti, come un "saluto". Ecco come:
 
 ```jsx
-javascript
-Copia
+
 function Persona(nome, eta) {
     this.nome = nome;
     this.eta = eta;

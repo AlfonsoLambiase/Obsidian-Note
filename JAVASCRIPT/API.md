@@ -8,10 +8,6 @@ In JavaScript, possiamo usare le API per ottenere dati da altri servizi, come un
 
 1. **API per ottenere i dati del meteo**:
 
-javascript
-
-Copia
-
 ```
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Roma&appid=YOUR_API_KEY')   
 .then(response => response.json())

@@ -11,8 +11,7 @@ Il ciclo `for` è uno dei più usati e si utilizza quando si conosce il numero d
 ### Sintassi:
 
 ```jsx
-javascript
-Copia
+
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
@@ -28,8 +27,7 @@ Il ciclo `while` esegue un blocco di codice finché una condizione è vera. È u
 ### Sintassi:
 
 ```jsx
-javascript
-Copia
+
 let i = 0;
 while (i < 5) {
     console.log(i);
@@ -47,8 +45,7 @@ Il ciclo `do...while` è simile al `while`, ma garantisce che il blocco di codic
 ### Sintassi:
 
 ```jsx
-javascript
-Copia
+
 let i = 0;
 do {
     console.log(i);
@@ -66,8 +63,7 @@ Il ciclo `for...in` è usato per iterare su tutte le **proprietà di un oggetto*
 ### Sintassi:
 
 ```jsx
-javascript
-Copia
+
 let person = {name: "John", age: 30, city: "New York"};
 for (let key in person) {
     console.log(key + ": " + person[key]);
@@ -84,8 +80,7 @@ Il ciclo `for...of` viene usato per iterare su **array o altri oggetti iterabili
 ### Sintassi:
 
 ```jsx
-javascript
-Copia
+
 let arr = [10, 20, 30, 40];
 for (let value of arr) {
     console.log(value);

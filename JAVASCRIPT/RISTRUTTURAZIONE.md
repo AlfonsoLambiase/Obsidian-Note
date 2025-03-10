@@ -28,8 +28,7 @@ In questo esempio, `{ nome, età }` è la ristrutturazione dell'oggetto `persona
 Se vuoi usare un nome diverso per la variabile, puoi farlo così:
 
 ```jsx
-javascript
-Copia
+
 const { nome: nomePersona, età: anni } = persona;
 
 console.log(nomePersona); // "Alice"
