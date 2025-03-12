@@ -4,7 +4,9 @@ I prop sono le informazioni che passi a un tag JSX. Ad esempio, className, src, 
 
 
 `function Avatar() { return ( <img className="avatar" src="[https://i.imgur.com/1bX5QH6.jpg](https://i.imgur.com/1bX5QH6.jpg)" alt="Lin Lanying" width={100} height={100} /> ); }
+```
 export default function Profile() { return ( <Avatar /> ); }`
+```
 
 ###### **Passaggio di oggetti di scena a un componente**
 
@@ -38,6 +40,7 @@ Ora puoi configurare Avatar il rendering in molti modi diversi con diversi prop.
 
 i prop sono l'unico argomento per il tuo componente! Le funzioni dei componenti React accettano un singolo argomento, un props oggetto:
 
+```
 `function Avatar(props) {`
 
 `let person = props.person;`
@@ -47,10 +50,8 @@ i prop sono l'unico argomento per il tuo componente! Le funzioni dei componenti 
 `// ...`
 
 `}` 
+```
 
 
 
-isioajdoijaoidfàeaf 
-osajpocdjapsjhcpa
-kcspaK
 
