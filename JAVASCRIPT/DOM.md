@@ -26,11 +26,19 @@ Uno degli aspetti più importanti quando lavori con JavaScript è **selezionare 
 
 Immagina di avere il seguente codice HTML:
 
+<<<<<<< HEAD
+=======
+html
+
+Copia
+
+>>>>>>> bca3eae12b03bae434aabe0c452bb25fd39fb0d6
 `<div id="myDiv" class="myClass">Contenuto</div> <p class="myClass">Un paragrafo</p> <button id="myButton">Clicca qui</button>`
 
 Puoi usare JavaScript per selezionare e manipolare questi elementi.
 
 - Selezionare l'elemento con l'ID "myDiv":
+<<<<<<< HEAD
 
     `let div = document.getElementById('myDiv');` 
     `console.log(div);  // Mostra l'elemento <div> con id="myDiv"``
@@ -45,6 +53,37 @@ Puoi usare JavaScript per selezionare e manipolare questi elementi.
     
 - Selezionare il bottone con l'ID "myButton":
 
+=======
+    
+    javascript
+    
+    Copia
+    
+    `let div = document.getElementById('myDiv'); console.log(div);  // Mostra l'elemento <div> con id="myDiv"`
+    
+- Selezionare tutti gli elementi con la classe "myClass":
+    
+    javascript
+    
+    Copia
+    
+    `let elements = document.getElementsByClassName('myClass'); console.log(elements);  // Mostra un array di tutti gli elementi con classe "myClass"`
+    
+- Selezionare il primo paragrafo (`<p>`) con la classe "myClass":
+    
+    javascript
+    
+    Copia
+    
+    `let paragraph = document.querySelector('p.myClass'); console.log(paragraph);  // Mostra il primo <p> con la classe "myClass"`
+    
+- Selezionare il bottone con l'ID "myButton":
+    
+    javascript
+    
+    Copia
+    
+>>>>>>> bca3eae12b03bae434aabe0c452bb25fd39fb0d6
     `let button = document.getElementById('myButton'); console.log(button);  // Mostra il bottone`
     
 
@@ -60,6 +99,10 @@ Manipolare il DOM ti permette di creare interazioni dinamiche sulla tua pagina w
 
 In sintesi, il DOM è una rappresentazione ad oggetti della tua pagina web che consente a JavaScript di interagire con essa. I metodi di selezione che ti ho mostrato ti permettono di accedere agli elementi del DOM, mentre le funzioni che manipolano questi elementi ti permettono di cambiare la struttura, lo stile o il contenuto della pagina in modo dinamico.
 
+<<<<<<< HEAD
 
 
 
+=======
+Se hai bisogno di ulteriori spiegazioni su uno di questi concetti o vuoi vedere esempi più dettagliati, fammelo sapere!
+>>>>>>> bca3eae12b03bae434aabe0c452bb25fd39fb0d6
