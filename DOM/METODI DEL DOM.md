@@ -22,7 +22,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
    
     `const divs = document.getElementsByTagName('div');`
-    
+
 
 ### 4. **`querySelector()`**
 
@@ -30,7 +30,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
 
     `const element = document.querySelector('.miaClasse');`
-    
+
 
 ### 5. **`querySelectorAll()`**
 
@@ -38,7 +38,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
 
     `const elements = document.querySelectorAll('.miaClasse');`
-    
+
 
 ### 6. **`createElement()`**
 
@@ -46,7 +46,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
 
     `const newElement = document.createElement('div');`
-    
+
 
 ### 7. **`appendChild()`**
 
@@ -54,7 +54,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
 
     `const parent = document.getElementById('container'); parent.appendChild(newElement);`
-    
+
 
 ### 8. **`removeChild()`**
 
@@ -62,7 +62,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
 
     `const parent = document.getElementById('container'); const child = document.getElementById('elementoDaRimuovere'); parent.removeChild(child);`
-    
+
 
 ### 9. **`setAttribute()`**
 
@@ -70,7 +70,7 @@ Nel **DOM** (Document Object Model), ci sono vari **metodi** che ci permettono d
 - **Esempio:**
 
     `const element = document.getElementById('miaImmagine'); element.setAttribute('src', 'nuovaImmagine.jpg');`
-    
+
 
 ### 10. **`getAttribute()`**
 
